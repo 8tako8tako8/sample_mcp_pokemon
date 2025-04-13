@@ -15,6 +15,21 @@
 npm run build
 ```
 
+## Claude Desktop 側の設定
+
+```json
+{
+  "mcpServers": {
+    "pokemon": {
+      "command": "node",
+      "args": [
+        "/ABSOLUTE/PATH/TO/PARENT/FOLDER/sample_mcp_pokemon/build/index.js"
+      ]
+    }
+  }
+}
+```
+
 ## API エンドポイント
 
 このサーバーは、[PokeAPI](https://pokeapi.co/api/v2)を利用しています。
